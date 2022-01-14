@@ -1,0 +1,89 @@
+header {
+    background-image: url("lake-g2c2a3352e_1920.jpg"); 
+    background-size: cover;   
+    
+    
+
+
+
+    width: 1100px;
+    height: 522px;
+    border:2px solid black;
+    
+    margin: 0 auto;  
+    text-align: center;
+}
+
+
+    
+
+
+
+
+
+div{
+    text-align: left;
+    width: 100%;
+    margin-right: 0%;
+    margin-top: 3%;
+    
+    background-color: rgb(108, 144, 206);
+    opacity: 0.7;
+}
+
+section {
+    
+
+    width: 1100px;
+    height: 100%;
+
+    border: 2px solid black;
+    margin: 8px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(201, 201, 201);
+}
+
+footer {
+    width: 1100px;
+    height: 89px;
+    border: 2px solid black;
+    margin: 8px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(127, 255, 212, 0.116);
+}
+
+
+
+
+#login {
+    margin-left: 75%;
+    background: none;
+    border: none;
+}
+
+#signup{
+    margin-right: 5;
+    background: none;
+    border: none;
+}
+
+#myinfo_nav {
+    background: none;
+    border: none;
+    color:aliceblue;
+}
+
+#album_nav {
+    background: none;
+    border: none;
+    color:aliceblue;
+}
+
+#playlist_nav {
+    background: none;
+    border: none;
+    color:aliceblue;
+}
+

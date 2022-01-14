@@ -1,0 +1,31 @@
+header {
+    width: 300px;
+    height: 400px;
+    border:2px solid black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#inform{
+    margin: 5px;
+}
+
+#ID1_box{
+    margin: 5px;
+}
+
+#PW1_box{
+    margin: 5px;
+}
+
+#NAME_box{
+    margin: 5px;
+}
+
+#EMAIL_box{
+    margin: 5px;
+}
+
+#sign{
+    margin: 30%;
+}

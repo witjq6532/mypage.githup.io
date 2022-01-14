@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="1-1.css">
+</head>
+
+    
+<body>  
+    <header>
+        
+        <button id="login" onClick="location.href='login.html'" style="color: aliceblue;"><strong>로그인</strong></button>
+        <button id="signup" onClick="location.href='signup.html'" style="color: aliceblue;" ><strong>회원가입</strong></button>
+
+        <div>
+            <button id="myinfo_nav" onClick="location.href='myinfo.html'" style="font-size: 18px;" ><strong>내 정보</strong></button>
+            
+            <button id="album_nav" onClick="location.href='album.html'"  style="font-size: 18px;" ><strong>사진</strong></button>
+
+            <button id="playlist_nav" onClick="location.href='playlist.html'"  style="font-size: 18px;" ><strong>플레이리스트</strong></button>
+        </div>
+        
+        
+    </header>  
+    
+
+
+    <section>
+        <SCRIPT>
+        
+            {gfx=new Array()
+        //이미지의 경로와 파일명을 적어 주세요.
+            gfx[0]="cat-g7c98ae022_1920.jpg"
+            gfx[1]="field-geb546dd9a_1920.jpg"
+            gfx[2]="road-g5e62d22b9_1920.jpg"
+            gfx[3]="사모예드.jpg"
+            gfx[4]="cat-g882232e80_1920.jpg"
+            gfx[5]="dog-g18a08a0b5_1920.jpg"
+            gfx[6]="mountains-g79189d059_1920.jpg"
+            gfx[7]="KakaoTalk_20220110_152620188_05.jpg"
+            gfx[8]="KakaoTalk_20220110_152620188_10.jpg"
+        
+            today2=new Date()
+            len=9
+            today=today2.getTime()/1
+            rnd=today % len
+            document.writeln('<img src="'+gfx[rnd]+'">')}
+        
+        </SCRIPT>
+        
+        <audio controls>
+            <script>
+                {gfx=new Array()
+                //이미지의 경로와 파일명을 적어 주세요.
+                gfx[0]="Justin Bieber  -  Off My Face (Lyrics).mp3"     
+                gfx[1]="🌟재생 3초만에 합격 _ Young Cocoa - Manila [가사_해석_lyrics].mp3"
+                gfx[2]="Sam Smith(샘 스미스) - To Die For [가사해석_발음_한글_자막_번역_lyrics].mp3"
+                
+                
+                today2=new Date()
+                len=3
+                today=today2.getTime()/1
+                rnd=today % len
+                document.writeln('<source src="'+gfx[rnd]+'" type = "audio/mpeg">')}  
+            </script>
+        </audio>
+
+    </section>
+    <footer>
+        
+    </footer>
+</body>
+</html>
